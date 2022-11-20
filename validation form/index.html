@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <form>
+      <label for="fistName" id="fistNameLabel">fist Name</label>
+      <input id="fistName" type="text" />
+      <p id="erreurfast"></p>
+      <label for="lastName" id="lastNamelabel">last Name</label>
+      <input id="lastName" type="text" />
+      <p id="erreurlast"></p>
+      <label for="email" id="emailLabel">email</label>
+      <input type="email" name="" id="email" />
+      <p id="erreuremail"></p>
+      <label for="password" id="passwordLabel">password</label>
+      <div>
+        <input type="password" name="" id="password" /><i
+          class="bi bi-eye-slash-fill PasswordType"
+        ></i
+        ><i class="bi bi-eye TextType"></i>
+      </div>
+      <p id="erreurpass"></p>
+      <label for="confirmePass" id="confirmePassLabel">confirme password</label>
+      <div>
+        <input type="password" name="" id="confirmePass" />
+        <i class="bi bi-eye-slash-fill passwordType"></i
+        ><i class="bi bi-eye textType"></i>
+      </div>
+      <p id="erreurconfirm"></p>
+      <button id="submit">valider</button>
+    </form>
+
+    <script src="javascript/app.js"></script>
+  </body>
+</html>
